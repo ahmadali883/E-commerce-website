@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: 'Value';
+    src: url('fonts/ValueSansPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Value';
+    src: url('fonts/ValueSansPro-Bold.woff') format('woff');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+}
+
+.nav-bar{
+    display: flex;
+    position: relative;
+    font-weight: 700;
+    font-family: 'Value', sans-serif;
+    font-size: 14px;
+    color: #153a5b;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.left{
+    display: flex;
+    align-content: center;
+    white-space: nowrap;
+}
+.left div{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding: 8px;
+
+}
+
+.right div{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding: 12px;
+}
+
+.cover-image{
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    align-content: center;
+}
+.cover{
+    position: relative;
+}
+/*  */
+.product-card_name,.hero-cta_button,.description,.headline,.title{
+    position: absolute;
+}
+
+.title{
+    height: 40px;
+    width: 120px;
+    white-space:nowrap;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 25px;
+}
+.headline{
+    position: absolute;
+    top: 40px;
+    opacity: 1;
+}
+
+.description{
+    position: absolute;
+    opacity: 1;
+    bottom: 90px;
+    width: 350px;
+    font-size: 20px;
+
+
+}
+
+.product-card_product-image{
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    right: 200px;
+    top: 400px;
+    
+}
+
+.hero-cta_button{
+    position: absolute;
+    bottom: 0px;
+}
+.content{
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    color: white;
+    font-family: 'Value', sans-serif;
+    top:250px;
+    left: 90px;
+}
